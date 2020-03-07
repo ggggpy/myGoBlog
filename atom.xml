@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-07T06:50:01.552Z</updated>
+    <updated>2020-03-07T06:50:51.807Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -71,16 +71,16 @@ sort.Sort(sort.Reverse(sort.Float64sSelice(a []float64)))
         <link href="https://l63u04.coding-pages.com/X5LIPnrTg/">
         </link>
         <updated>2017-03-15T05:51:53.000Z</updated>
-        <summary type="html"><![CDATA[<p>今天新装的Mysql 连接时报错<br>
-<img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></p>
+        <summary type="html"><![CDATA[<p>今天新装的Mysql 连接时报错</p>
+<figure data-type="image" tabindex="1"><img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></figure>
 ]]></summary>
-        <content type="html"><![CDATA[<p>今天新装的Mysql 连接时报错<br>
-<img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p>今天新装的Mysql 连接时报错</p>
+<figure data-type="image" tabindex="1"><img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></figure>
 <!-- more -->
 <h3 id="解决方法">解决方法</h3>
 <p>原来是粗心的我没有开启mysql service<br>
-<code>pa -ef</code> 或<code>sudo service mysql status</code> 检查mysql服务是否开启<br>
-<img src="https://l63u04.coding-pages.com//post-images/1583561500128.png" alt="" loading="lazy"></p>
+<code>pa -ef</code> 或<code>sudo service mysql status</code> 检查mysql服务是否开启</p>
+<figure data-type="image" tabindex="2"><img src="https://l63u04.coding-pages.com//post-images/1583561500128.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
