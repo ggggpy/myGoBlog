@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-07T06:38:11.530Z</updated>
+    <updated>2020-03-07T06:50:01.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -16,6 +16,17 @@
         <link href="https://l63u04.coding-pages.com/kipw6zaZe/">
         </link>
         <updated>2018-01-09T06:24:55.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="keywords">Keywords</h3>
+<p><code>break</code> <code>default</code> <code>func</code> <code>interface</code> <code>select</code> <code>case</code> <code>defer</code></p>
+<p><code>go</code> <code>map</code> <code>struct</code> <code>chan</code> <code>else</code> <code>goto</code> <code>package</code> <code>switch</code></p>
+<p><code>const</code> <code>fallthrough</code> <code>if</code> <code>range</code> <code>tyge</code> <code>continue</code> <code>for</code> <code>import</code></p>
+<p><code>return</code> <code>var</code></p>
+<h3 id="package-别名">Package 别名</h3>
+<p><code>import f &quot;fmt&quot; //f.Println()</code><br>
+<code>import . math //Sqrt(4.0)</code></p>
+<h3 id="变量命名">变量命名</h3>
+<p>🐫驼峰命名，一般首字母小写，大写具有特殊含义(程序调用外部包时，只有大写开头才能被调用)</p>
+]]></summary>
         <content type="html"><![CDATA[<h3 id="keywords">Keywords</h3>
 <p><code>break</code> <code>default</code> <code>func</code> <code>interface</code> <code>select</code> <code>case</code> <code>defer</code></p>
 <p><code>go</code> <code>map</code> <code>struct</code> <code>chan</code> <code>else</code> <code>goto</code> <code>package</code> <code>switch</code></p>
@@ -26,6 +37,7 @@
 <code>import . math //Sqrt(4.0)</code></p>
 <h3 id="变量命名">变量命名</h3>
 <p>🐫驼峰命名，一般首字母小写，大写具有特殊含义(程序调用外部包时，只有大写开头才能被调用)</p>
+<!-- more -->
 <h3 id="int-范围">int 范围</h3>
 <p>int类型会根据操作系统变化，在32位的操作系统中，int类型是32位，在64位操作系统中同理<br>
 int的取值范围：<br>
@@ -59,8 +71,12 @@ sort.Sort(sort.Reverse(sort.Float64sSelice(a []float64)))
         <link href="https://l63u04.coding-pages.com/X5LIPnrTg/">
         </link>
         <updated>2017-03-15T05:51:53.000Z</updated>
+        <summary type="html"><![CDATA[<p>今天新装的Mysql 连接时报错<br>
+<img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></p>
+]]></summary>
         <content type="html"><![CDATA[<p>今天新装的Mysql 连接时报错<br>
 <img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></p>
+<!-- more -->
 <h3 id="解决方法">解决方法</h3>
 <p>原来是粗心的我没有开启mysql service<br>
 <code>pa -ef</code> 或<code>sudo service mysql status</code> 检查mysql服务是否开启<br>
@@ -73,12 +89,20 @@ sort.Sort(sort.Reverse(sort.Float64sSelice(a []float64)))
         <link href="https://l63u04.coding-pages.com/rX6bft21a/">
         </link>
         <updated>2017-03-06T06:16:59.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="备份源文件">备份源文件</h3>
+<p><code>sudo cp /etc/apt/sources.list /etc/apt/sources/list.bak</code></p>
+<h3 id="修改源">修改源</h3>
+<pre><code class="language-bash">sudo chmod 777 /etc/apt/sources.list
+sudo vi /etc/apt/sources.list
+</code></pre>
+]]></summary>
         <content type="html"><![CDATA[<h3 id="备份源文件">备份源文件</h3>
 <p><code>sudo cp /etc/apt/sources.list /etc/apt/sources/list.bak</code></p>
 <h3 id="修改源">修改源</h3>
 <pre><code class="language-bash">sudo chmod 777 /etc/apt/sources.list
 sudo vi /etc/apt/sources.list
 </code></pre>
+<!-- more -->
 <h3 id="更新">更新</h3>
 <pre><code>sudo apt-get update
 sudo apt-get upgrade
