@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-07T05:48:13.750Z</updated>
+    <updated>2020-03-07T06:14:20.748Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -11,16 +11,26 @@
     <icon>https://l63u04.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Chi&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[Mysql 错误处理]]></title>
+        <id>https://l63u04.coding-pages.com/X5LIPnrTg/</id>
+        <link href="https://l63u04.coding-pages.com/X5LIPnrTg/">
+        </link>
+        <updated>2020-03-07T05:51:53.000Z</updated>
+        <content type="html"><![CDATA[<p>今天新装的Mysql 连接时报错<br>
+<img src="https://l63u04.coding-pages.com//post-images/1583561363739.png" alt="" loading="lazy"></p>
+<h3 id="解决方法">解决方法</h3>
+<p>原来是粗心的我没有开启mysql service<br>
+<code>pa -ef</code> 或<code>sudo service mysql status</code> 检查mysql服务是否开启<br>
+<img src="https://l63u04.coding-pages.com//post-images/1583561500128.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[瀑布流photos示例]]></title>
         <id>https://l63u04.coding-pages.com/p1Mb7WziP/</id>
         <link href="https://l63u04.coding-pages.com/p1Mb7WziP/">
         </link>
         <updated>2020-03-05T05:35:04.000Z</updated>
-        <summary type="html"><![CDATA[<p><photos><img src="https://l63u04.coding-pages.com//post-images/1583559993147.jpg" alt="" loading="lazy"></photos></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><photos><img src="https://l63u04.coding-pages.com//post-images/1583559993147.jpg" alt="" loading="lazy"></photos></p>
-<!-- more -->
-<p><photos><img src="https://l63u04.coding-pages.com//post-images/1583560090458.png" alt="" loading="lazy"></photos></p>
+        <content type="html"><![CDATA[<p><photos><img src="file" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-3.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-4.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-5.jpeg" alt="" loading="lazy"></photos></p>
 ]]></content>
     </entry>
     <entry>
