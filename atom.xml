@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-07T08:25:00.573Z</updated>
+    <updated>2020-03-07T08:32:52.771Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://l63u04.coding-pages.com/p1Mb7WziP/">
         </link>
         <updated>2020-03-05T05:35:04.000Z</updated>
-        <content type="html"><![CDATA[<p><photos><img src="http://t8.baidu.com/it/u=3571592872,3353494284&amp;fm=79&amp;app=86&amp;size=h300&amp;n=0&amp;g=4n&amp;f=jpeg?sec=1584174248&amp;t=334d9da134d54834a566b206b1d1ad5e" alt="" loading="lazy"><img src="http://t8.baidu.com/it/u=1484500186,1503043093&amp;fm=79&amp;app=86&amp;size=h300&amp;n=0&amp;g=4n&amp;f=jpeg?sec=1584174248&amp;t=de79019b01c863abe0eb6161e3d510c3" alt="" loading="lazy"><img src="http://t9.baidu.com/it/u=583874135,70653437&amp;fm=79&amp;app=86&amp;size=h300&amp;n=0&amp;g=4n&amp;f=jpeg?sec=1584174248&amp;t=0a163dfbf89fa9c6e72a0cf7095255ee" alt="" loading="lazy"></photos></p>
+        <content type="html"><![CDATA[<photos>
+![](https://l63u04.coding-pages.com//post-images/1583569299979.jpg)
+</photos>
+<figure data-type="image" tabindex="1"><img src="https://l63u04.coding-pages.com//post-images/1583569968591.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
