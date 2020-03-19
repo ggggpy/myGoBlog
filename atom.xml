@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-19T15:50:31.834Z</updated>
+    <updated>2020-03-19T15:54:14.182Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -11,11 +11,48 @@
     <icon>https://l63u04.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Chi&apos;s blog</rights>
     <entry>
+        <title type="html"><![CDATA[Win10 Ubuntu安装路径]]></title>
+        <id>https://l63u04.coding-pages.com/1b3h-2wYa/</id>
+        <link href="https://l63u04.coding-pages.com/1b3h-2wYa/">
+        </link>
+        <updated>2020-03-19T12:25:52.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://l63u04.coding-pages.com//post-images/1584633115218.jpg" alt="" loading="lazy">C:\Users\Chi\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\</p>
+<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CChi%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200319202540048.png" alt="image-20200319202540048" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MySQL 数据库基础]]></title>
+        <id>https://l63u04.coding-pages.com/HhCII-wbe/</id>
+        <link href="https://l63u04.coding-pages.com/HhCII-wbe/">
+        </link>
+        <updated>2020-03-19T09:26:15.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="关系型数据库">关系型数据库</h3>
+<p>Oracle<br>
+MySQL<br>
+MSSQL</p>
+<h3 id="非关系型数据库">非关系型数据库</h3>
+<p>Mongo DB<br>
+Redis<br>
+ES</p>
+<h3 id="云数据库">云数据库</h3>
+<p>RDS \ PolarDB<br>
+TDSQL</p>
+<h3 id="mysql-厂家">MySQL 厂家</h3>
+<p>Oracle  官方<br>
+MariaDB<br>
+Percona</p>
+<h3 id="mysql-版本选择">MySQL 版本选择</h3>
+<p>5.6 ****   5.6.36/5.6.38/5.6.40/5.6.46(GA时间6-12月)<br>
+5.7 ***** 选择新版即可 5.7.20/5.7.22/5.7.24/5.7.26/5.7.28<br>
+8.0 **      8.0.11/8.0.17/8.0.18</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ubuntu 安装 MySQL]]></title>
         <id>https://l63u04.coding-pages.com/UAz7mcF83/</id>
         <link href="https://l63u04.coding-pages.com/UAz7mcF83/">
         </link>
-        <updated>2020-03-19T15:47:28.000Z</updated>
+        <updated>2019-11-19T15:47:28.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://downloads.mysql.com/archives/community/">官网下载Mysql Generic 文件</a></p>
 <h3 id="创建用户和用户组">创建用户和用户组</h3>
 <p><code>useradd mysql -s /sbin/nologin</code></p>
@@ -76,13 +113,12 @@ socket=/tmp/mysql.sock
 <h3 id="修改密码">修改密码</h3>
 <pre><code class="language-bash">mysqladmin -uroot -p password xxxxxxxx
 </code></pre>
-<p>/*</p>
-<p>修改密码遇到<code>mysqld_safe A mysqld process already exists</code>*</p>
-<p><em>解决步骤：</em></p>
-<p><em>1：ps aux |grep mysql  查看mysql的进程。</em></p>
-<p><em>2：通过kill -9 杀死进程。</em></p>
-<p><em>3：重启mysql service mysql start</em></p>
-<p>*/</p>
+<pre><code>修改密码遇到`mysqld_safe A mysqld process already exists`
+ *解决步骤：*
+1：ps aux |grep mysql  查看mysql的进程。
+2：通过kill -9 杀死进程。
+3：重启mysql service mysql start
+</code></pre>
 <h3 id="启动mysql">启动mysql</h3>
 <pre><code class="language-bash">sudo cp /app/database/mysql/support-file/mysql.server /etc/init.d/mysqld
 </code></pre>
@@ -90,43 +126,6 @@ socket=/tmp/mysql.sock
 <pre><code class="language-bash">mysql -uroot -p
 //输入密码
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Win10 Ubuntu安装路径]]></title>
-        <id>https://l63u04.coding-pages.com/1b3h-2wYa/</id>
-        <link href="https://l63u04.coding-pages.com/1b3h-2wYa/">
-        </link>
-        <updated>2020-03-19T12:25:52.000Z</updated>
-        <content type="html"><![CDATA[<p>C:\Users\Chi\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\</p>
-<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CChi%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200319202540048.png" alt="image-20200319202540048" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MySQL 数据库基础]]></title>
-        <id>https://l63u04.coding-pages.com/HhCII-wbe/</id>
-        <link href="https://l63u04.coding-pages.com/HhCII-wbe/">
-        </link>
-        <updated>2020-03-19T09:26:15.000Z</updated>
-        <content type="html"><![CDATA[<h3 id="关系型数据库">关系型数据库</h3>
-<p>Oracle<br>
-MySQL<br>
-MSSQL</p>
-<h3 id="非关系型数据库">非关系型数据库</h3>
-<p>Mongo DB<br>
-Redis<br>
-ES</p>
-<h3 id="云数据库">云数据库</h3>
-<p>RDS \ PolarDB<br>
-TDSQL</p>
-<h3 id="mysql-厂家">MySQL 厂家</h3>
-<p>Oracle  官方<br>
-MariaDB<br>
-Percona</p>
-<h3 id="mysql-版本选择">MySQL 版本选择</h3>
-<p>5.6 ****   5.6.36/5.6.38/5.6.40/5.6.46(GA时间6-12月)<br>
-5.7 ***** 选择新版即可 5.7.20/5.7.22/5.7.24/5.7.26/5.7.28<br>
-8.0 **      8.0.11/8.0.17/8.0.18</p>
 ]]></content>
     </entry>
     <entry>
