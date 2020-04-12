@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-04-12T10:58:03.897Z</updated>
+    <updated>2020-04-12T10:59:00.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -145,12 +145,26 @@ socket=/tmp/mysql.sock
 <p>软件测试的两个目标：测试覆盖率、测试效率</p>
 <!-- more -->
 <h3 id="测试原则">测试原则</h3>
+<ul>
+<li>
 <p>测试能够显示缺陷的存在，但不能证明程序不存在缺陷；</p>
+</li>
+<li>
 <p>穷尽测试时不可能的，应该设定测试终止条件</p>
+</li>
+<li>
 <p>软件测试要尽早执行</p>
+</li>
+<li>
 <p>缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）</p>
+</li>
+<li>
 <p>测试的杀虫剂悖论（测试用例应不定期评审、修改；）</p>
+</li>
+<li>
 <p>测试活动依赖于测试背景</p>
+</li>
+</ul>
 <figure data-type="image" tabindex="1"><img src="https://tobyqin.github.io/images/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif" alt="" loading="lazy"></figure>
 <h3 id="测试分类">测试分类</h3>
 <h4 id="按照阶段分类">按照阶段分类：</h4>
