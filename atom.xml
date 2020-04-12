@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-03-19T15:54:14.182Z</updated>
+    <updated>2020-04-12T10:58:03.897Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -113,7 +113,7 @@ socket=/tmp/mysql.sock
 <h3 id="修改密码">修改密码</h3>
 <pre><code class="language-bash">mysqladmin -uroot -p password xxxxxxxx
 </code></pre>
-<pre><code>修改密码遇到`mysqld_safe A mysqld process already exists`
+<pre><code>修改密码遇到 mysqld_safe A mysqld process already exists
  *解决步骤：*
 1：ps aux |grep mysql  查看mysql的进程。
 2：通过kill -9 杀死进程。
@@ -126,6 +126,51 @@ socket=/tmp/mysql.sock
 <pre><code class="language-bash">mysql -uroot -p
 //输入密码
 </code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件测试]]></title>
+        <id>https://l63u04.coding-pages.com/y_8Pj4iJt/</id>
+        <link href="https://l63u04.coding-pages.com/y_8Pj4iJt/">
+        </link>
+        <updated>2018-08-03T10:56:10.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="软件测试">软件测试</h3>
+<p>ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足<code>规定的要求</code>，并找出<code>预期结果</code>之间的差异</p>
+<p>软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；</p>
+<p>软件测试的两个目标：测试覆盖率、测试效率</p>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="软件测试">软件测试</h3>
+<p>ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足<code>规定的要求</code>，并找出<code>预期结果</code>之间的差异</p>
+<p>软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；</p>
+<p>软件测试的两个目标：测试覆盖率、测试效率</p>
+<!-- more -->
+<h3 id="测试原则">测试原则</h3>
+<p>测试能够显示缺陷的存在，但不能证明程序不存在缺陷；</p>
+<p>穷尽测试时不可能的，应该设定测试终止条件</p>
+<p>软件测试要尽早执行</p>
+<p>缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）</p>
+<p>测试的杀虫剂悖论（测试用例应不定期评审、修改；）</p>
+<p>测试活动依赖于测试背景</p>
+<figure data-type="image" tabindex="1"><img src="https://tobyqin.github.io/images/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif" alt="" loading="lazy"></figure>
+<h3 id="测试分类">测试分类</h3>
+<h4 id="按照阶段分类">按照阶段分类：</h4>
+<ul>
+<li>单元测试</li>
+</ul>
+<p>对软件中的最小可测试单元进行检查和验证；</p>
+<p>能够尽早返现缺陷；有利于重构；简化集成；有利于制作文档或减少文档</p>
+<p>单元测试不可能覆盖所有执行路径；单元测试投入较大</p>
+<ul>
+<li>集成测试</li>
+</ul>
+<p>在单元测试的基础上，测试将所有的单元按照概要设计规格说明的要求组装成模块、子系统或系统的过程中各部分工作是否达到或实现相应技术指标以及要求；</p>
+<p>实施方案：Big Bang、自顶向下、自底向上、核心系统集成、高频集成（持续集成）；</p>
+<ul>
+<li>系统测试</li>
+<li>验收测试</li>
+</ul>
+<h3 id="测试流程">测试流程</h3>
+<h3 id="测试报告">测试报告</h3>
 ]]></content>
     </entry>
     <entry>

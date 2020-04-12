@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea | Chi&#39;s blog</title>
+<title>软件测试 | Chi&#39;s blog</title>
 <meta name="description" content="善于总结和记录，才能更好的成长" />
 <link rel="shortcut icon" href="https://l63u04.coding-pages.com//favicon.ico">
 <link rel="stylesheet" href="https://l63u04.coding-pages.com//styles/main.css">
@@ -14,11 +14,16 @@
 <script src="https://l63u04.coding-pages.com//media/js/view-image.min.js"></script>
 <script src="https://l63u04.coding-pages.com//media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://l63u04.coding-pages.com//media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="软件测试
+ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足规定的要求，并找出预期结果之间的差异
+软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；
+软件..." />
+    <meta name="keywords" content="软件测试" />
+    <script src="https://l63u04.coding-pages.com//media/js/waterfall.min.js"></script>
+    <script src="https://l63u04.coding-pages.com//media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -79,45 +84,138 @@
         </div>
       </div>
 
-      <main id="home" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
-                
-            <!-- start: .articles -->
-            <div class="main-article post">
-  <h2 class="year"># Gridea</h2>
-    
-      <article class="item default grid-33 tablet-grid-50 np-mobile">
-        <a href="https://l63u04.coding-pages.com/hello-gridea/" class="thumb hover-effect">
-          <span class="fullimage cover" style="display: block;background-image: url('/media/images/gridea.jpg');"></span>
-        </a>
-        <div class="info gradient-effect">
-          <time datetime="2018-12-12">2018-12-12</time>
-          <h4 class="title usmall">
-            <a href="https://l63u04.coding-pages.com/hello-gridea/">Hello Gridea</a>
-          </h4>
-        </div>
-      </article>
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-    
-    <div class="clear"></div>
-</div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
-                
-              </div>
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://l63u04.coding-pages.com//post-images/y_8Pj4iJt.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2018-08-03"><i class="fa fa-calendar"></i><span class="lately">2 年前</span></time>
+              
+              <a href="https://l63u04.coding-pages.com/y_8Pj4iJt/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/y_8Pj4iJt/"> </span>
+              </a>
+              <span id="/y_8Pj4iJt/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
             </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://l63u04.coding-pages.com/oKDJxa9ZC/" class="ctag ctag-0 ctag-oKDJxa9ZC" aria-label="">软件测试</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">软件测试</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <h3 id="软件测试">软件测试</h3>
+<p>ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足<code>规定的要求</code>，并找出<code>预期结果</code>之间的差异</p>
+<p>软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；</p>
+<p>软件测试的两个目标：测试覆盖率、测试效率</p>
+<!-- more -->
+<h3 id="测试原则">测试原则</h3>
+<p>测试能够显示缺陷的存在，但不能证明程序不存在缺陷；</p>
+<p>穷尽测试时不可能的，应该设定测试终止条件</p>
+<p>软件测试要尽早执行</p>
+<p>缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）</p>
+<p>测试的杀虫剂悖论（测试用例应不定期评审、修改；）</p>
+<p>测试活动依赖于测试背景</p>
+<figure data-type="image" tabindex="1"><img src="https://tobyqin.github.io/images/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif" alt="" loading="lazy"></figure>
+<h3 id="测试分类">测试分类</h3>
+<h4 id="按照阶段分类">按照阶段分类：</h4>
+<ul>
+<li>单元测试</li>
+</ul>
+<p>对软件中的最小可测试单元进行检查和验证；</p>
+<p>能够尽早返现缺陷；有利于重构；简化集成；有利于制作文档或减少文档</p>
+<p>单元测试不可能覆盖所有执行路径；单元测试投入较大</p>
+<ul>
+<li>集成测试</li>
+</ul>
+<p>在单元测试的基础上，测试将所有的单元按照概要设计规格说明的要求组装成模块、子系统或系统的过程中各部分工作是否达到或实现相应技术指标以及要求；</p>
+<p>实施方案：Big Bang、自顶向下、自底向上、核心系统集成、高频集成（持续集成）；</p>
+<ul>
+<li>系统测试</li>
+<li>验收测试</li>
+</ul>
+<h3 id="测试流程">测试流程</h3>
+<h3 id="测试报告">测试报告</h3>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://l63u04.coding-pages.com//post-images/UAz7mcF83.jpg');"></div>
+                 <a href="https://l63u04.coding-pages.com/UAz7mcF83/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2019-11-19">2019-11-19</time>
+                  <h4 class="title white no-margin">Ubuntu 安装 MySQL</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://l63u04.coding-pages.com//media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://l63u04.coding-pages.com//post-images/kipw6zaZe.jpg');"></div>
+                 <a href="https://l63u04.coding-pages.com/kipw6zaZe/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2018-01-09">2018-01-09</time>
+                  <h4 class="title white no-margin">Golang 基础</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://l63u04.coding-pages.com//media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
+              <div id="comments" class="bg-white hosted ">
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
+              </div>
+            
+
+            </div>
           </div>
-          </div>
-        </div>
       </main>
 
-        <footer id="footer" class="grid-container">
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -276,6 +374,9 @@
     })
 </script>
     
+
+      
+    <script src="https://l63u04.coding-pages.com//media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->
