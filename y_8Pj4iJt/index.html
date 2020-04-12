@@ -74,7 +74,7 @@ ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的�
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1586689263488" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1586698191284" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -120,12 +120,24 @@ ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的�
 <!-- more -->
 <h3 id="测试原则">测试原则</h3>
 <ul>
-<li>测试能够显示缺陷的存在，但不能证明程序不存在缺陷；</li>
-<li>穷尽测试时不可能的，应该设定测试终止条件</li>
-<li>软件测试要尽早执行</li>
-<li>缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）</li>
-<li>测试的杀虫剂悖论（测试用例应不定期评审、修改；）</li>
-<li>测试活动依赖于测试背景</li>
+<li>
+<p>测试能够显示缺陷的存在，但不能证明程序不存在缺陷；</p>
+</li>
+<li>
+<p>穷尽测试时不可能的，应该设定测试终止条件</p>
+</li>
+<li>
+<p>软件测试要尽早执行</p>
+</li>
+<li>
+<p>缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）</p>
+</li>
+<li>
+<p>测试的杀虫剂悖论（测试用例应不定期评审、修改；）</p>
+</li>
+<li>
+<p>测试活动依赖于测试背景</p>
+</li>
 </ul>
 <figure data-type="image" tabindex="1"><img src="https://tobyqin.github.io/images/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif" alt="" loading="lazy"></figure>
 <h3 id="测试分类">测试分类</h3>
@@ -143,8 +155,35 @@ ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的�
 <p>实施方案：Big Bang、自顶向下、自底向上、核心系统集成、高频集成（持续集成）；</p>
 <ul>
 <li>系统测试</li>
+</ul>
+<p>将集成过的测试软件，作为计算机系统的一个部分，与系统中其他部分结合起来，在实际运行环境下对计算机系统进行的一系列严格有效的测试，以发现软件的潜在问题，保证系统的正常运行；</p>
+<ul>
 <li>验收测试</li>
 </ul>
+<p>针对用户需求、业务流程的正式测试，确定系统是否满足验收标准，由用户、客户或其他授权机构决定是否接受系统</p>
+<h4 id="按照测试手段分类">按照测试手段分类</h4>
+<h4 id="黑盒测试-白盒测试">黑盒测试、白盒测试</h4>
+<p>黑盒：容易实施、无需关注内部结构；贴近用户需求；  覆盖率低，自动化测试时复用率较低维护成本高；</p>
+<p>关注点：</p>
+<ul>
+<li>是否有不正确或遗漏的功能</li>
+<li>在接口上，输入是否能正确的接收？能否输出正确结果？</li>
+<li>是否有数据结构的错误或外部信息访问错误？</li>
+<li>性能是否能够满足要求</li>
+</ul>
+<p>黑盒测试的主要设计方法：</p>
+<img src="http://www.spasvo.com/ckfinder/userfiles/images/2017040757391788.png" style="zoom:50%;" />
+<ul>
+<li>等价类划分</li>
+<li>边界值分析</li>
+<li>错误推测</li>
+<li>因果图</li>
+<li>正交实验分析</li>
+<li>状态迁移图</li>
+<li>流程分析</li>
+</ul>
+<h4 id="静态测试-动态测试">静态测试、动态测试</h4>
+<h4 id="手工测试-自动化测试">手工测试、自动化测试</h4>
 <h3 id="测试流程">测试流程</h3>
 <h3 id="测试报告">测试报告</h3>
 
