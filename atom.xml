@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-05-09T10:26:53.489Z</updated>
+    <updated>2020-05-13T05:06:12.414Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -138,6 +138,58 @@ socket=/tmp/mysql.sock
 <p><code>sudo service mysqld start</code></p>
 <pre><code class="language-bash">mysql -uroot -p
 //输入密码
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Golang 基础 -- Map]]></title>
+        <id>https://l63u04.coding-pages.com/ctdnJylAG/</id>
+        <link href="https://l63u04.coding-pages.com/ctdnJylAG/">
+        </link>
+        <updated>2019-08-01T01:46:45.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="声明">声明</h3>
+<pre><code class="language-go">mapName := map[keyType]valueType     //未初始化
+mapName := map[keyType]valueType{    //声明并赋值
+    key1 : value1,
+    key2 : value2,
+}
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="声明">声明</h3>
+<pre><code class="language-go">mapName := map[keyType]valueType     //未初始化
+mapName := map[keyType]valueType{    //声明并赋值
+    key1 : value1,
+    key2 : value2,
+}
+
+&lt;!-- more --&gt;
+
+mapName := make(map[keyType]valueType, [cap])   //申请内存空间
+</code></pre>
+<h3 id="遍历">遍历</h3>
+<pre><code class="language-go">// map遍历无序
+for key, value := range mapName{
+    // 遍历key和value
+    fmt.Println(key, value)
+}
+
+for key := range mapName{
+    //只遍历key
+    fmt.Println(key, mapName[key])
+}
+</code></pre>
+<h3 id="查看是否存在key">查看是否存在key</h3>
+<pre><code class="language-go">value, ok := mapName[key]
+if ok != nil {
+    fmt.Println(value)
+}
+</code></pre>
+<h3 id="删除添加修改">删除/添加/修改</h3>
+<pre><code class="language-go">//delete
+delete(mapName, key)
+</code></pre>
+<pre><code class="language-go">//更改或者添加
+mapName[key] = value
 </code></pre>
 ]]></content>
     </entry>
