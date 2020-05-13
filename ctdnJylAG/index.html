@@ -75,7 +75,7 @@ mapName := map[keyType]valueType{    //声明并赋值
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1589346556554" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1589346629208" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -117,7 +117,7 @@ mapName := map[keyType]valueType{    //声明并赋值
               <section class="post-content">
                 <div class="text">
                   <h3 id="声明">声明</h3>
-<pre><code class="language-go">mapName := map[keyType]valueType     //未初始化
+<pre><code class="language-golang">mapName := map[keyType]valueType     //未初始化
 mapName := map[keyType]valueType{    //声明并赋值
     key1 : value1,
     key2 : value2,
@@ -128,7 +128,7 @@ mapName := map[keyType]valueType{    //声明并赋值
 mapName := make(map[keyType]valueType, [cap])   //申请内存空间
 </code></pre>
 <h3 id="遍历">遍历</h3>
-<pre><code class="language-go">// map遍历无序
+<pre><code class="language-golang">// map遍历无序
 for key, value := range mapName{
     // 遍历key和value
     fmt.Println(key, value)
@@ -140,16 +140,16 @@ for key := range mapName{
 }
 </code></pre>
 <h3 id="查看是否存在key">查看是否存在key</h3>
-<pre><code class="language-go">value, ok := mapName[key]
+<pre><code class="language-golang">value, ok := mapName[key]
 if ok != nil {
     fmt.Println(value)
 }
 </code></pre>
 <h3 id="删除添加修改">删除/添加/修改</h3>
-<pre><code class="language-go">//delete
+<pre><code class="language-golang">//delete
 delete(mapName, key)
 </code></pre>
-<pre><code class="language-go">//更改或者添加
+<pre><code class="language-golang">//更改或者添加
 mapName[key] = value
 </code></pre>
 
