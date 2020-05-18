@@ -15,11 +15,10 @@
 <script src="https://l63u04.coding-pages.com//media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://l63u04.coding-pages.com//media/js/functions.js"></script>
     <meta name="referrer" content="never">
-    <meta name="description" content="声明
+    <meta name="description" content="map是一个无序得key,value类型; map 和 selice 一致, 属于引用类型; 不初始化时 == nil
+声明
 mapName := map[keyType]valueType     //未初始化
-mapName := map[keyType]valueType{    //声明并赋值
-    key1 : value1,
-    key2 ..." />
+mapName := ma..." />
     <meta name="keywords" content="learn golang,Golang" />
     <script src="https://l63u04.coding-pages.com//media/js/waterfall.min.js"></script>
     <script src="https://l63u04.coding-pages.com//media/js/prism.min.js"></script>
@@ -75,7 +74,7 @@ mapName := map[keyType]valueType{    //声明并赋值
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1589346668311" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1589791843773" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -90,7 +89,7 @@ mapName := map[keyType]valueType{    //声明并赋值
         <div class="center content">
           <div class="featured-image cover" style="background-image: url('https://l63u04.coding-pages.com//post-images/ctdnJylAG.jpg');">
             <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2019-08-01"><i class="fa fa-calendar"></i><span class="lately">9 个月前</span></time>
+              <time class="meta-info" style="float:left;" datetime="2019-08-01"><i class="fa fa-calendar"></i><span class="lately">10 个月前</span></time>
               
               <a href="https://l63u04.coding-pages.com/ctdnJylAG/#comments" class="comments meta-info" title="">
                 <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/ctdnJylAG/"> </span>
@@ -116,7 +115,8 @@ mapName := map[keyType]valueType{    //声明并赋值
             <article class="main-article post">
               <section class="post-content">
                 <div class="text">
-                  <h3 id="声明">声明</h3>
+                  <p>map是一个无序得key,value类型; map 和 selice 一致, 属于引用类型; 不初始化时 == nil</p>
+<h3 id="声明">声明</h3>
 <pre><code class="language-golang">mapName := map[keyType]valueType     //未初始化
 mapName := map[keyType]valueType{    //声明并赋值
     key1 : value1,
@@ -151,6 +151,26 @@ delete(mapName, key)
 <pre><code class="language-golang">//更改或者添加
 mapName[key] = value
 </code></pre>
+<h3 id="元素是map得切片">元素是map得切片</h3>
+<pre><code class="language-golang">//use map declear selice
+func mapSelice()  {
+	var (	//declear selice and map
+		elementMap = []map[int]int{}
+		ele1 = map[int]int{1:2,2:4,4:8}
+		ele2 = map[int]int{2:1,4:2,8:4}
+	)
+	elementMap = append(elementMap,ele1,ele2)
+}
+</code></pre>
+<h3 id="元素是selice的map">元素是selice的map</h3>
+<pre><code class="language-golang">//use selice as value decleaer map
+func elementWithSelice()  {
+	var elementSelice = map[string][]int{}
+	elementSelice[&quot;Chinese&quot;] = []int{1,2,3,22}
+}
+</code></pre>
+<h3 id="顺序遍历map">顺序遍历Map</h3>
+<p>把Map中的key遍历出来, 添加到切片中, 然后使用<code>sort.Strings()</code>对切片进行排序, 最后遍历切片并去除map中的value</p>
 
                 </div>
                 <div class="clear"></div>
