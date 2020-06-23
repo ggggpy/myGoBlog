@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>Chi&apos;s blog</title>
-    <updated>2020-05-18T08:51:07.822Z</updated>
+    <updated>2020-06-23T06:25:08.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>https://l63u04.coding-pages.com/images/avatar.png</logo>
     <icon>https://l63u04.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Chi&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Windows 10 自用软件备忘]]></title>
+        <id>https://l63u04.coding-pages.com/ejVzQstYf/</id>
+        <link href="https://l63u04.coding-pages.com/ejVzQstYf/">
+        </link>
+        <updated>2020-06-23T06:24:14.000Z</updated>
+        <summary type="html"><![CDATA[<h3 id="图像">图像:</h3>
+<p>字由: 字体工具</p>
+<p>Snipaste: 截图/贴图工具(但是没有阴影和序号标注)</p>
+]]></summary>
+        <content type="html"><![CDATA[<h3 id="图像">图像:</h3>
+<p>字由: 字体工具</p>
+<p>Snipaste: 截图/贴图工具(但是没有阴影和序号标注)</p>
+<!-- more -->
+<h3 id="影音">影音:</h3>
+<p>potplayer: 视频播放器</p>
+<p>哔哩: UWP应用, 非官方; 开发者: 云之幻;</p>
+<p>Typora:</p>
+<p>Gridea:</p>
+<h3 id="开发">开发:</h3>
+<p>VS code: IDE</p>
+<p>Goland: Go IDE</p>
+<p>Sourcetree: 可视化Git工具</p>
+<h3 id="美化">美化:</h3>
+<p>TaskbarX:</p>
+<img src="C:\Users\Gee\Downloads\screely-1592893127046.png" alt="screely-1592893127046" style="zoom: 50%;" />
+<h3 id="其他">其他:</h3>
+<p>TeamViewer: 最好用的远程工具;</p>
+<p>Scrcpy: 安卓手机镜像工具;</p>
+<p>Clash: 百度一下 你就知道</p>
+<p>Carnac: 按键记录工具</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Golang 基础 -- Slice(切片)]]></title>
+        <id>https://l63u04.coding-pages.com/xFPvMwOjT/</id>
+        <link href="https://l63u04.coding-pages.com/xFPvMwOjT/">
+        </link>
+        <updated>2020-05-19T02:55:25.000Z</updated>
+        <content type="html"><![CDATA[<p>由于数组的长度是固定的并且属于数组的一部分, 导致数组有很多限制;<br>
+切片是一个拥有相同元素的长度可变的序列, 他是基于数组进行了一层封装, 使用比较灵活, 能够自动扩容;<br>
+切片是一个引用类型, 她包含 地址/ 长度/ 容量. 切片一般用于快速操作一块数据集合.</p>
+<h3 id="selice-declear">selice declear</h3>
+<p><code>var sleiceName []Type</code><br>
+<code>var sliceName = []type{}</code><br>
+<code>sliceName := make([]type, len, cap)</code></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Win10 Ubuntu安装路径]]></title>
         <id>https://l63u04.coding-pages.com/1b3h-2wYa/</id>
@@ -142,7 +190,7 @@ socket=/tmp/mysql.sock
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Golang 基础 -- Map]]></title>
+        <title type="html"><![CDATA[Golang 基础 -- Map(映射)]]></title>
         <id>https://l63u04.coding-pages.com/ctdnJylAG/</id>
         <link href="https://l63u04.coding-pages.com/ctdnJylAG/">
         </link>
@@ -195,9 +243,9 @@ delete(mapName, key)
 mapName[key] = value
 </code></pre>
 <h3 id="元素是map得切片">元素是map得切片</h3>
-<pre><code class="language-golang">//use map declear selice
-func mapSelice()  {
-	var (	//declear selice and map
+<pre><code class="language-golang">//use map declear slice
+func mapSlice()  {
+	var (	//declear slice and map
 		elementMap = []map[int]int{}
 		ele1 = map[int]int{1:2,2:4,4:8}
 		ele2 = map[int]int{2:1,4:2,8:4}
@@ -205,11 +253,11 @@ func mapSelice()  {
 	elementMap = append(elementMap,ele1,ele2)
 }
 </code></pre>
-<h3 id="元素是selice的map">元素是selice的map</h3>
-<pre><code class="language-golang">//use selice as value decleaer map
-func elementWithSelice()  {
-	var elementSelice = map[string][]int{}
-	elementSelice[&quot;Chinese&quot;] = []int{1,2,3,22}
+<h3 id="元素是slice的map">元素是slice的map</h3>
+<pre><code class="language-golang">//use slice as value decleaer map
+func elementWithSlice()  {
+	var elementSlice = map[string][]int{}
+	elementSlice[&quot;Chinese&quot;] = []int{1,2,3,22}
 }
 </code></pre>
 <h3 id="顺序遍历map">顺序遍历Map</h3>
@@ -419,74 +467,6 @@ sort.Sort(sort.Reverse(sort.Float64sSelice(a []float64)))
 <p>原来是粗心的我没有开启mysql service<br>
 <code>pa -ef</code> 或<code>sudo service mysql status</code> 检查mysql服务是否开启</p>
 <figure data-type="image" tabindex="2"><img src="https://l63u04.coding-pages.com//post-images/1583561500128.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu/Debian/Deepin 更换国内源]]></title>
-        <id>https://l63u04.coding-pages.com/rX6bft21a/</id>
-        <link href="https://l63u04.coding-pages.com/rX6bft21a/">
-        </link>
-        <updated>2017-03-06T06:16:59.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="备份源文件">备份源文件</h3>
-<p><code>sudo cp /etc/apt/sources.list /etc/apt/sources/list.bak</code></p>
-<h3 id="修改源">修改源</h3>
-<pre><code class="language-bash">sudo chmod 777 /etc/apt/sources.list
-sudo vi /etc/apt/sources.list
-</code></pre>
-]]></summary>
-        <content type="html"><![CDATA[<h3 id="备份源文件">备份源文件</h3>
-<p><code>sudo cp /etc/apt/sources.list /etc/apt/sources/list.bak</code></p>
-<h3 id="修改源">修改源</h3>
-<pre><code class="language-bash">sudo chmod 777 /etc/apt/sources.list
-sudo vi /etc/apt/sources.list
-</code></pre>
-<!-- more -->
-<h3 id="更新">更新</h3>
-<pre><code>sudo apt-get update
-sudo apt-get upgrade
-</code></pre>
-<p>阿里源</p>
-<pre><code>deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
-
-deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
-
-deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
-
-deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-
-deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
-
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
-
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
-
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
-
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
-</code></pre>
-<p>清华源</p>
-<pre><code>deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
-
-deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
-
-deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
-
-deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
-
-deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
-
-deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
-</code></pre>
 ]]></content>
     </entry>
 </feed>

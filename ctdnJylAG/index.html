@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Golang 基础 -- Map | Chi&#39;s blog</title>
+<title>Golang 基础 -- Map(映射) | Chi&#39;s blog</title>
 <meta name="description" content="善于总结和记录，才能更好的成长" />
 <link rel="shortcut icon" href="https://l63u04.coding-pages.com//favicon.ico">
 <link rel="stylesheet" href="https://l63u04.coding-pages.com//styles/main.css">
@@ -74,7 +74,7 @@ mapName := ma..." />
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1589791843773" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1592893506741" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -89,7 +89,7 @@ mapName := ma..." />
         <div class="center content">
           <div class="featured-image cover" style="background-image: url('https://l63u04.coding-pages.com//post-images/ctdnJylAG.jpg');">
             <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2019-08-01"><i class="fa fa-calendar"></i><span class="lately">10 个月前</span></time>
+              <time class="meta-info" style="float:left;" datetime="2019-08-01"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
               
               <a href="https://l63u04.coding-pages.com/ctdnJylAG/#comments" class="comments meta-info" title="">
                 <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/ctdnJylAG/"> </span>
@@ -105,7 +105,7 @@ mapName := ma..." />
                       <a href="https://l63u04.coding-pages.com/iFBl6mZiS/" class="ctag ctag-1 ctag-iFBl6mZiS" aria-label="">Golang</a>
                     
               </div>
-              <h1 class="title ularge white bold">Golang 基础 -- Map</h1>
+              <h1 class="title ularge white bold">Golang 基础 -- Map(映射)</h1>
             </div>
           </div>
         </div>  
@@ -152,9 +152,9 @@ delete(mapName, key)
 mapName[key] = value
 </code></pre>
 <h3 id="元素是map得切片">元素是map得切片</h3>
-<pre><code class="language-golang">//use map declear selice
-func mapSelice()  {
-	var (	//declear selice and map
+<pre><code class="language-golang">//use map declear slice
+func mapSlice()  {
+	var (	//declear slice and map
 		elementMap = []map[int]int{}
 		ele1 = map[int]int{1:2,2:4,4:8}
 		ele2 = map[int]int{2:1,4:2,8:4}
@@ -162,11 +162,11 @@ func mapSelice()  {
 	elementMap = append(elementMap,ele1,ele2)
 }
 </code></pre>
-<h3 id="元素是selice的map">元素是selice的map</h3>
-<pre><code class="language-golang">//use selice as value decleaer map
-func elementWithSelice()  {
-	var elementSelice = map[string][]int{}
-	elementSelice[&quot;Chinese&quot;] = []int{1,2,3,22}
+<h3 id="元素是slice的map">元素是slice的map</h3>
+<pre><code class="language-golang">//use slice as value decleaer map
+func elementWithSlice()  {
+	var elementSlice = map[string][]int{}
+	elementSlice[&quot;Chinese&quot;] = []int{1,2,3,22}
 }
 </code></pre>
 <h3 id="顺序遍历map">顺序遍历Map</h3>
@@ -250,6 +250,36 @@ jQuery(document).ready(function($){
                   
                   
                   <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://l63u04.coding-pages.com/ejVzQstYf/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://l63u04.coding-pages.com//post-images/ejVzQstYf.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-06-23">2020-06-23</time>
+                      <h4 class="title usmall">
+                        <a href="https://l63u04.coding-pages.com/ejVzQstYf/">Windows 10 自用软件备忘</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://l63u04.coding-pages.com/xFPvMwOjT/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-05-19">2020-05-19</time>
+                      <h4 class="title usmall">
+                        <a href="https://l63u04.coding-pages.com/xFPvMwOjT/">Golang 基础 -- Slice(切片)</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
                     <a href="https://l63u04.coding-pages.com/1b3h-2wYa/" class="thumb hover-effect">
                       <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://l63u04.coding-pages.com//post-images/1b3h-2wYa.jpg');"></span>
                     </a>
@@ -264,33 +294,7 @@ jQuery(document).ready(function($){
                   
                   
                   
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://l63u04.coding-pages.com/HhCII-wbe/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://l63u04.coding-pages.com//post-images/HhCII-wbe.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-03-19">2020-03-19</time>
-                      <h4 class="title usmall">
-                        <a href="https://l63u04.coding-pages.com/HhCII-wbe/">MySQL 数据库基础</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
                   
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://l63u04.coding-pages.com/iowNkn5iD/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-03-08">2020-03-08</time>
-                      <h4 class="title usmall">
-                        <a href="https://l63u04.coding-pages.com/iowNkn5iD/">a few passwords..</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
                   
                   
                   
@@ -378,7 +382,7 @@ jQuery(document).ready(function($){
           <a href="https://l63u04.coding-pages.com/"><img src="\media\images\custom-footerLogo.png" alt=""></a>
         </div>
         <p class="published border-effect">
-          ©2019 共 11 篇文章
+          ©2019 共 13 篇文章
           <br/>
           Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
         </p>
