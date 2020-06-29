@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+<title>网络 - ggggpy</title>
+<meta name="description" content="善于总结和记录，才能更好的成长">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link type='text/css' rel='stylesheet' href='https://l63u04.coding-pages.com//styles/main.css' media='screen' />
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" src='https://l63u04.coding-pages.com//media/scripts/jquery.js'></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+</script>
+</head>
+
+<body>
+  <div class="layout theme-dark">
+    <div class="layout-header">
+
+	<div class="layout-header-main">
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+
+					<div class="navbar">
+
+						<div class="logo">
+							<a href="https://l63u04.coding-pages.com/">
+								<img class="logo"
+									src="https://l63u04.coding-pages.com//media/images/site_avatar.png?v=1593423133534"
+									alt="">
+							</a>
+						</div>
+
+						<div class="menu d-md-inline-block d-none">
+							<ul class="layout-navigation-list">
+								
+								<li class="layout-navigation-item"><a title="归档"
+										href="/archives">归档</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="标签"
+										href="/tags">标签</a>
+								</li>
+								
+								<li class="layout-navigation-item"><a title="朋友"
+										href="/friends">朋友</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="item d-md-inline-block d-none">
+							<div class="search-icon">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</div>
+
+
+
+						<div class="d-md-inline-block d-none">
+							<div class="search-lightbox">
+								<div class="search-body">
+
+									<form id="gridea-search-form" data-update="1593423133534" action="/search/" class="search-form">
+										<input type="text" name="q" id="s" value="" class="search-field" placeholder="请输入搜索关键词" aria-label="请输入搜索关键词" required="">
+										<button type="submit" class="submit" aria-label="Submit">
+											<i class="fa fa-search" aria-hidden="true"></i>
+										</button>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="nav d-md-none d-inline-block">
+							<div class="trigger">
+								<i class="fa fa-bars layout-btn-toggle" aria-hidden="true"></i>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+</div>
+    <div class="layout-collapse d-md-none">
+	<div class="layout-collapse-main">
+		<ul class="layout-collapse-list">
+			
+			<li class="layout-collapse-item"><a title="归档" href="/archives">归档</a></li>
+			
+			<li class="layout-collapse-item"><a title="标签" href="/tags">标签</a></li>
+			
+			<li class="layout-collapse-item"><a title="朋友" href="/friends">朋友</a></li>
+			
+
+		</ul>
+	</div>
+</div>
+
+    <div class="layout-content">
+      <div class="layout-content-main">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="layout-post">
+                <div class="layout-post-body">
+                  <div class="row">
+
+                    <div class="col-12 col-lg-10">
+                      <div class="layout-post-main m-right m-md-right">
+                        <div class="layout-post-header">
+                          <h1 class="layout-post-title">网络</h1>
+                          <div class="layout-post-meta">
+                            <div class="item">
+                               <a href="https://l63u04.coding-pages.com/7uQuqyyxN/" class="post--keyword"
+                                data-title="基础" data-type="post_tag" data-term-id="39">基础</a>
+                              
+                            </div>
+                            <div class="item">
+                              <span>2019-04-01</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="layout-post-content">
+                          <div class="layout-post-item">
+                            
+                            <p class="with-img"><img src="https://l63u04.coding-pages.com//post-images/JYD86VWPR.jpg"
+                                class="attachment-full size-full wp-post-image" alt="网络" /></p>
+                            
+                            <h3 id="osi-七层模型">OSI 七层模型</h3>
+<ul>
+<li><strong>应用层</strong></li>
+<li><strong>表示层</strong></li>
+<li><strong>会话层</strong></li>
+<li><strong>传输层</strong><br>
+数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）</li>
+</ul>
+<!-- more -->
+<ul>
+<li><strong>网络层</strong><br>
+数据帧封装；拥塞控制；网际互联<br>
+代表协议：IP、IPX、OSPF<br>
+数据格式：数据包；分组(packet)</li>
+<li><strong>数据链路层</strong><br>
+数据成帧、物理地址寻址、流量控制、数据检错/重发<br>
+数据格式：数据帧(Frame)</li>
+<li><strong>物理层</strong><br>
+数据还未经处理，以原始的电流、电压、电气形式存在；该层的典型规范包括RJ-45<br>
+数据格式： 比特流(bitstream)<br>
+在传输层及以上高层次中，数据传输单位统称为<strong>报文</strong></li>
+</ul>
+<h3 id="tcpip-四层模型">TCP/IP 四层模型</h3>
+<ul>
+<li><strong>应用层</strong></li>
+<li><strong>传输层</strong></li>
+<li><strong>网络层</strong></li>
+<li><strong>数据链路层（网络接口层）</strong></li>
+</ul>
+
+                          </div>
+                        </div>
+                        <div class="layout-post-social">
+                          <div class="item reader">
+                            <div id="/post/JYD86VWPR/" class="leancloud-visitors view"
+                              data-flag-title="网络">
+                              <span class="post-meta-item-text">阅读 </span>
+                              <span class="leancloud-visitors-count"></span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="layout-post-navigation">
+                          <div class="navigation-list">
+                            
+                            <div class="post-card row">
+                              
+                              <div class="card-content col-8 col-md-9">
+                                <div class="card-body">
+                                  <div class="header">
+                                    <a href="https://l63u04.coding-pages.com/ctdnJylAG/" class="title">
+                                      <h4>Golang 基础 -- Map(映射)</h4>
+                                    </a>
+                                  </div>
+                                  <div class="inner d-none d-sm-block">
+                                    <div class="abstract">
+                                      <p>map是一个无序得key,value类型; map 和 selice 一致, 属于引用类型; 不初始化时 == nil</p>
+<h3 id="声明">声明</h3>
+<pre><code class="language-golang">mapName := map[keyType]valueType     //未初始化
+mapName := map[keyType]valueType{    //声明并赋值
+    key1 : value1,
+    key2 : value2,
+}
+
+mapName := make(map[keyType]valueType, [cap])   //申请内存空间
+</code></pre>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="item"><span>上一篇</span></div>
+                                  <div class="item">2019-08-01</div>
+                                </div>
+                              </div>
+                              <div class="card-thumb col-4 col-md-3">
+                                <div class="thumb">
+                                  <a href="https://l63u04.coding-pages.com/ctdnJylAG/"
+                                    style="background-image: url('https://l63u04.coding-pages.com//post-images/ctdnJylAG.jpg');"></a>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            <div class="post-card row">
+                              
+                              <div class="card-content col-8 col-md-9">
+                                <div class="card-body">
+                                  <div class="header">
+                                    <a href="https://l63u04.coding-pages.com/y_8Pj4iJt/" class="title">
+                                      <h4>软件测试</h4>
+                                    </a>
+                                  </div>
+                                  <div class="inner d-none d-sm-block">
+                                    <div class="abstract">
+                                      <h3 id="软件测试">软件测试</h3>
+<p>ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足<code>规定的要求</code>，并找出<code>预期结果</code>之间的差异</p>
+<p>软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；</p>
+<p>软件测试的两个目标：测试覆盖率、测试效率</p>
+
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="item"><span>下一篇</span></div>
+                                  <div class="item">2018-08-03</div>
+                                </div>
+                              </div>
+                              <div class="card-thumb col-4 col-md-3">
+                                <div class="thumb">
+                                  <a href="https://l63u04.coding-pages.com/y_8Pj4iJt/"
+                                    style="background-image: url('https://l63u04.coding-pages.com//post-images/y_8Pj4iJt.jpg');"></a>
+                                </div>
+                              </div>
+                              
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="layout-comments"></div>
+                        
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-lg-2 d-none d-lg-block">
+                      <div class="layout-post-sidebar">
+                        <div class="layout-sidebar-item">
+                          <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#osi-%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B">OSI 七层模型</a></li>
+<li><a href="#tcpip-%E5%9B%9B%E5%B1%82%E6%A8%A1%E5%9E%8B">TCP/IP 四层模型</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="layout-totop d-none"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+
+    	<div class="layout-footer">
+
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-12 col-lg-9">
+					<div class="footer">
+						<div class="row">
+							<div class="col-12 col-md-9">
+								<div class="footer-copy">
+									
+									<span>© 2019.8.1 </span>
+									<a href="https://l63u04.coding-pages.com/" title="ggggpy">ggggpy</a>
+									<span class="px-2">⋅</span>
+									
+									Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+									<div class="footer-icp d-none d-sm-inline-block">
+										<span class="px-2">⋅</span>
+										
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 d-none d-md-block">
+								<div class="footer-links">
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src='https://l63u04.coding-pages.com//media/scripts/main.js'></script>
+	
+
+  </div>
+</body>
+
+</html>
