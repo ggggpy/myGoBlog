@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="ggggpy personal blog. 个人博客/笔记">
+<meta name="theme-color" content="#000">
+<title>My cats... | ggggpy</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1593442918929">
+<link rel="stylesheet" href="/media/css/gemini.css">
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<link rel="stylesheet" href="/styles/main.css">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+  <meta name="description" content="My cats..." />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>ggggpy</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">我心匪席, 不可卷</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="https://l63u04.coding-pages.com//" target="_self">
+                  <i class="fa fa-globe"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/friends/" target="_self">
+                  <i class="fa fa-globe"></i> 朋友
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+          
+            <li id="fa_search" class="nav-item">
+              <a href="javascript:void(0);">
+                <i class="fa fa-search"></i> <span class="language" data-lan="search">搜索</span>
+              </a>
+            </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout gemini ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active language" data-lan="index">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item language" data-lan="preview">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">ggggpy</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>golang 全栈工程师</p>
+      
+        <p>看到喜欢得东西就不由得记录下来</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">11</span>
+        <span class="site-item-stat-name language" data-lan="article">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-name language" data-lan="category">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">7</span>
+        <span class="site-item-stat-name language" data-lan="tag">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+  
+  
+
+
+
+</div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://l63u04.coding-pages.com/TEX0zgMjG/">
+      My cats...
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span class="language" data-lan="publish">发布于</span>
+      <span>2020-03-07</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1<span class="language" data-lan="minute">分钟</span></span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>4<span class="pc-show language" data-lan="words">字数</span></span>
+    </span>
+    
+  </div>
+</header>
+            <div class="post-body next-md-body" id="post_body">
+              <p>They are my cats...</p>
+<!-- more -->
+<p><photos><img src="https://upload-images.jianshu.io/upload_images/22051661-8e00862a5f9b09b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-8c5dc7dc301268d9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-8a385cd5137e4609.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-96b59c0baa889867.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-b45663764cc87606.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-6fae7bdd57127a87.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-2793923f98a881cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"><img src="https://upload-images.jianshu.io/upload_images/22051661-767675d1c7f9ead4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" loading="lazy"></photos></p>
+
+            </div>
+            
+              <div class="reward-btn">
+                <div class="reward-btn-text">赞赏</div>
+              </div>
+            
+            
+              <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong class="language" data-lan="author">本文作者：</strong>
+      ggggpy
+    </li>
+    <li class="post-copyright-link">
+      <strong class="language" data-lan="link">本文链接：</strong>
+      <a href="https://l63u04.coding-pages.com/TEX0zgMjG/" title="My cats...">https://l63u04.coding-pages.com/TEX0zgMjG/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong class="language" data-lan="copyright">版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
+</div>
+            
+            
+  
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a
+        href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+    back2TopText = document.querySelector('#back_to_top_text'),
+    drawerBox = document.querySelector('#drawer_box'),
+    rightSideBar = document.querySelector('.sidebar'),
+    viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function (e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+
+  window.addEventListener('scroll', function (e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+
+  let hasCacu = false;
+  window.onresize = function () {
+    calcuHeight();
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function () {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, transitionDir, {});
+          }
+        })
+        window.Velocity(viewport, openProp, {
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function () {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp, {
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'false'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target", "_blank");
+      }
+    })
+  }
+
+  let faSearch = document.querySelector('#fa_search');
+  faSearch.addEventListener('click', function () {
+    document.querySelector('#search_mask').style = ''
+  })
+
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+  
+  // 离开当前页title变化
+  var leaveTitle = "";
+  if (leaveTitle) {
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState == 'hidden') {
+        normal_title = document.title;
+        document.title = leaveTitle;
+      } else {
+        document.title = normal_title;
+      }
+    });
+  }
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px;border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+    <div class="reward-mask" style="display: none;">
+  <div class="reward-relative">
+    <span class="close" aria-hidden="true">x</span>
+    <div class="reward-body">
+      <h2>感谢您的支持，我会继续努力的!</h2>
+      <div class="reward-img-box">
+        <div style="position: relative; width: 140px; height: 140px;">
+          
+          
+            <img id="zfb" class="reward-img" src="\media\images\custom-zfbImg.png" alt="赞赏码">
+          
+          
+            <img id="wx" class="reward-img" src="\media\images\custom-wxImg.png" alt="赞赏码">
+          
+        </div>
+      </div>
+      <p class="reward-word">扫码打赏，你说多少就多少</p>
+      <p class="reward-tip">打开微信扫一扫，即可进行扫码打赏哦</p>
+    </div>
+    <div class="bottom">
+      
+      <div id="zfbBtn" class="pay-text">
+        支付宝
+      </div>
+      
+      
+      <div id="wxBtn" class="pay-text">
+        微信支付
+      </div>
+      
+    </div>
+  </div>
+</div>
+<style>
+  .reward-mask {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00000054;
+  }
+
+  .reward-relative {
+    position: relative;
+    width: 480px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 50%;
+    margin-top: -205px;
+  }
+
+  .reward-relative .close {
+    position: absolute;
+    right: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #929292;
+  }
+
+  .reward-body {
+    padding: 40px 20px 20px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .reward-btn {
+    text-align: center;
+  }
+
+  .reward-btn-text {
+    display: inline-block;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #ff9734;
+    color: #FFF;
+    margin-top: 20px;
+  }
+
+  .pay-text {
+    margin-top: 10px;
+    padding: 10px;
+    flex: 1;
+    transition: all .2s linear;
+  }
+
+  .pay-text:hover {
+    background-color: #a5a5a536;
+  }
+
+  .reward-body h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 20px;
+  }
+
+  .reward-body h2:after,
+  .reward-body h2:before {
+    font-family: Arial, Helvetica, sans-serif;
+    background: 0 0;
+    width: 0;
+    height: 0;
+    font-style: normal;
+    color: #eee;
+    font-size: 80px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .reward-body h2:before {
+    content: '\201c';
+    left: 50px;
+  }
+
+  .reward-body h2:after {
+    content: '\201d';
+    right: 80px;
+  }
+
+  .reward-img-box {
+    display: inline-block;
+    padding: 10px;
+    border: 6px solid #ea5f00;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+  }
+
+  .reward-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .reward-relative {
+      height: 100%;
+      top: 0px;
+      margin-top: 0;
+      width: auto;
+    }
+
+    .reward-relative .bottom {
+      flex-direction: column;
+    }
+
+    .reward-relative .pay-text {
+      width: 80%;
+      margin: 5px auto;
+      border: 1px solid silver;
+      padding: 6px;
+      border-radius: 4px;
+    }
+
+    .reward-body h2:after {
+      right: 40px;
+    }
+
+    .reward-body h2:after,
+    .reward-body h2:before {
+      font-size: 60px;
+    }
+
+    .reward-body h2:before {
+      left: 20px;
+    }
+  }
+</style>
+<script>
+  !function () {
+    var mask = document.querySelector('.reward-mask');
+    let close = document.querySelector('.reward-relative .close');
+    let rewardBtn = document.querySelector('.reward-btn');
+
+    let zfb = document.querySelector('#zfb'),
+      wx = document.querySelector('#wx'),
+      zfbBtn = document.querySelector('#zfbBtn'),
+      wxBtn = document.querySelector('#wxBtn');
+
+    if (zfbBtn && wxBtn) {
+      zfbBtn.addEventListener('click', () => {
+        window.Velocity(zfb, 'transition.slideLeftIn', {
+          duration: 400
+        });
+        window.Velocity(wx, 'transition.slideRightOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+
+      wxBtn.addEventListener('click', () => {
+        window.Velocity(wx, 'transition.slideRightIn', {
+          duration: 400
+        });
+        window.Velocity(zfb, 'transition.slideLeftOut', {
+          display: 'none',
+          duration: 400
+        });
+      });
+    }
+
+    rewardBtn.addEventListener('click', (e) => {
+      window.Velocity(mask, 'transition.slideDownIn', {
+        duration: 400
+      })
+    });
+
+    close.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.Velocity(mask, 'transition.slideUpOut', {
+        duration: 400
+      })
+    })
+  }()
+</script>
+
+  </div>
+</body>
+
+  <div class="search-mask" id="search_mask" style="display: none;">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input id="search" type="text" class="language" data-lan="search" placeholder="搜索">
+      </div>
+      <i id="close" class="fa fa-times-circle"></i>
+    </div>
+    <div class="stat-box">
+      <span id="stat_count">0</span><span class="language" data-lan="stat">条相关条目，使用了</span><span id="stat_times">0</span><span class="language" data-lan="stat-time">毫秒</span>
+      <hr>
+    </div>
+    <div class="result" id="result">
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/ejVzQstYf/"" data-c="
+          &lt;h3 id=&#34;图像&#34;&gt;图像:&lt;/h3&gt;
+&lt;p&gt;字由: 字体工具&lt;/p&gt;
+&lt;p&gt;Snipaste: 截图/贴图工具(但是没有阴影和序号标注)&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;影音&#34;&gt;影音:&lt;/h3&gt;
+&lt;p&gt;potplayer: 视频播放器&lt;/p&gt;
+&lt;p&gt;哔哩: UWP应用, 非官方; 开发者: 云之幻;&lt;/p&gt;
+&lt;p&gt;Typora:&lt;/p&gt;
+&lt;p&gt;Gridea:&lt;/p&gt;
+&lt;h3 id=&#34;开发&#34;&gt;开发:&lt;/h3&gt;
+&lt;p&gt;VS code: IDE&lt;/p&gt;
+&lt;p&gt;Goland: Go IDE&lt;/p&gt;
+&lt;p&gt;Sourcetree: 可视化Git工具&lt;/p&gt;
+&lt;h3 id=&#34;美化&#34;&gt;美化:&lt;/h3&gt;
+&lt;p&gt;TaskbarX:&lt;/p&gt;
+&lt;img src=&#34;C:\Users\Gee\Downloads\screely-1592893127046.png&#34; alt=&#34;screely-1592893127046&#34; style=&#34;zoom: 50%;&#34; /&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他:&lt;/h3&gt;
+&lt;p&gt;TeamViewer: 最好用的远程工具;&lt;/p&gt;
+&lt;p&gt;Scrcpy: 安卓手机镜像工具;&lt;/p&gt;
+&lt;p&gt;Clash: 百度一下 你就知道&lt;/p&gt;
+&lt;p&gt;Carnac: 按键记录工具&lt;/p&gt;
+">Windows 10 自用软件备忘</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/xFPvMwOjT/"" data-c="
+          &lt;p&gt;由于数组的长度是固定的并且属于数组的一部分, 导致数组有很多限制;&lt;br&gt;
+切片是一个拥有相同元素的长度可变的序列, 他是基于数组进行了一层封装, 使用比较灵活, 能够自动扩容;&lt;br&gt;
+切片是一个引用类型, 她包含 地址/ 长度/ 容量. 切片一般用于快速操作一块数据集合.&lt;/p&gt;
+&lt;h3 id=&#34;selice-declear&#34;&gt;selice declear&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;var sleiceName []Type&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;var sliceName = []type{}&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;sliceName := make([]type, len, cap)&lt;/code&gt;&lt;/p&gt;
+">Golang 基础 -- Slice(切片)</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/1b3h-2wYa/"" data-c="
+          &lt;p&gt;C:\Users\Chi\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;C:%5CUsers%5CChi%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200319202540048.png&#34; alt=&#34;image-20200319202540048&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+">Win10 Ubuntu安装路径</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/HhCII-wbe/"" data-c="
+          &lt;h3 id=&#34;关系型数据库&#34;&gt;关系型数据库&lt;/h3&gt;
+&lt;p&gt;Oracle&lt;br&gt;
+MySQL&lt;br&gt;
+MSSQL&lt;/p&gt;
+&lt;h3 id=&#34;非关系型数据库&#34;&gt;非关系型数据库&lt;/h3&gt;
+&lt;p&gt;Mongo DB&lt;br&gt;
+Redis&lt;br&gt;
+ES&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;云数据库&#34;&gt;云数据库&lt;/h3&gt;
+&lt;p&gt;RDS \ PolarDB&lt;br&gt;
+TDSQL&lt;/p&gt;
+&lt;h3 id=&#34;mysql-厂家&#34;&gt;MySQL 厂家&lt;/h3&gt;
+&lt;p&gt;Oracle  官方&lt;br&gt;
+MariaDB&lt;br&gt;
+Percona&lt;/p&gt;
+&lt;h3 id=&#34;mysql-版本选择&#34;&gt;MySQL 版本选择&lt;/h3&gt;
+&lt;p&gt;5.6 ****   5.6.36/5.6.38/5.6.40/5.6.46(GA时间6-12月)&lt;br&gt;
+5.7 ***** 选择新版即可 5.7.20/5.7.22/5.7.24/5.7.26/5.7.28&lt;br&gt;
+8.0 **      8.0.11/8.0.17/8.0.18&lt;/p&gt;
+">MySQL 数据库基础</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/iowNkn5iD/"" data-c="
+          &lt;p&gt;docker ID&lt;br&gt;
+heidouandtuotuo&lt;br&gt;
+tuotuo4adog&lt;/p&gt;
+">a few passwords..</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/TEX0zgMjG/"" data-c="
+          &lt;p&gt;They are my cats...&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;photos&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-8e00862a5f9b09b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-8c5dc7dc301268d9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-8a385cd5137e4609.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-96b59c0baa889867.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-b45663764cc87606.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-6fae7bdd57127a87.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-2793923f98a881cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;img src=&#34;https://upload-images.jianshu.io/upload_images/22051661-767675d1c7f9ead4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/photos&gt;&lt;/p&gt;
+">My cats...</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/UAz7mcF83/"" data-c="
+          &lt;p&gt;&lt;a href=&#34;https://downloads.mysql.com/archives/community/&#34;&gt;官网下载Mysql Generic 文件&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建用户和用户组&#34;&gt;创建用户和用户组&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;useradd mysql -s /sbin/nologin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;id mysql&lt;/code&gt;&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://l63u04.coding-pages.com//post-images/1584632989281.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;清除历史环境&#34;&gt;清除历史环境&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;dpkg -list | grep mysql&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt remove mysql&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/mjhblog/p/10499772.html&#34;&gt;详细参考&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;创建相关目录&#34;&gt;创建相关目录&lt;/h3&gt;
+&lt;p&gt;软件目录:&lt;code&gt;mkdir -p /app/database/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;数据目录:&lt;code&gt;mkdir -p /data/3306&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;日志目录:&lt;code&gt;mkdir -p /binlog/3306/&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;设置权限&#34;&gt;设置权限&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo chown -R mysql.mysql /app/ /data/ /binlog/&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;上传解压添加软连接&#34;&gt;上传\解压\添加软连接&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cd /app/database&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tar -xvf mysql 5.7.28xxxx.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo rm mysql 5.7.28xxxx.tar.gz&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo ln -s mysql 5.7.28xxxx mysql&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;设置环境变量&#34;&gt;设置环境变量&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo vi /etc/profile
+export PATH=/app/database/mysql/bin:$PATH	//Esc :wq
+source /etc/profile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;初始化系统库表&#34;&gt;初始化系统库表&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mysqld --initialize-insecure --user=mysql --basedir=/app/database/mysql --datadir=/data/3306
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://l63u04.coding-pages.com//post-images/1584633022208.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;如果出现如上图报错 需要安装相关依赖:sudo apt-get install libaio-dev -y&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;补充说明&#34;&gt;补充说明&lt;/h3&gt;
+&lt;p&gt;5.6版本初始化:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;/app/database/mysql/scripts/mysql_install_db --user=mysql --dasedir=/app/database/mysql --datadir=/data/3306
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;5.7版本初始化:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mysqld --initialize --user=mysql --dasedir=/app/database/mysql --datadir=/data/3306
+//初始化后,会有12位临时密码,不能作为数据库管理密码,必须在使用前重置密码; 并且密码复杂度有要求,密码长度有要求
+//[Note] A tempoary password is generated for root@localhost: xxxxxxxx+
+
+mysqld --mysqld --initialize-insecure --user=mysql --basedir=/app/database/mysql --datadir=/data/3306
+// 初始化后 无临时密码
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;设置配置文件&#34;&gt;设置配置文件&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo vi /etc/my.cnf
+
+[mysqld]
+user=mysql
+basedir=/app/database/mysql
+datadir=/data/3306
+server_id=6
+port=3306
+socket=/tmp/mysql.sock
+[mysql]
+socket=/tmp/mysql.sock
+
+//Esc :wq
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;修改密码&#34;&gt;修改密码&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mysqladmin -uroot -p password xxxxxxxx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;修改密码遇到 mysqld_safe A mysqld process already exists
+ *解决步骤：*
+1：ps aux |grep mysql  查看mysql的进程。
+2：通过kill -9 杀死进程。
+3：重启mysql service mysql start
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;启动mysql&#34;&gt;启动mysql&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo cp /app/database/mysql/support-file/mysql.server /etc/init.d/mysqld
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;sudo service mysqld start&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mysql -uroot -p
+//输入密码
+&lt;/code&gt;&lt;/pre&gt;
+">Ubuntu 安装 MySQL</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/ctdnJylAG/"" data-c="
+          &lt;p&gt;map是一个无序得key,value类型; map 和 selice 一致, 属于引用类型; 不初始化时 == nil&lt;/p&gt;
+&lt;h3 id=&#34;声明&#34;&gt;声明&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;mapName := map[keyType]valueType     //未初始化
+mapName := map[keyType]valueType{    //声明并赋值
+    key1 : value1,
+    key2 : value2,
+}
+
+mapName := make(map[keyType]valueType, [cap])   //申请内存空间
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;遍历&#34;&gt;遍历&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;// map遍历无序
+for key, value := range mapName{
+    // 遍历key和value
+    fmt.Println(key, value)
+}
+
+for key := range mapName{
+    //只遍历key
+    fmt.Println(key, mapName[key])
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;查看是否存在key&#34;&gt;查看是否存在key&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;value, ok := mapName[key]
+if ok != nil {
+    fmt.Println(value)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;删除添加修改&#34;&gt;删除/添加/修改&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;//delete
+delete(mapName, key)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;//更改或者添加
+mapName[key] = value
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;元素是map得切片&#34;&gt;元素是map得切片&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;//use map declear slice
+func mapSlice()  {
+	var (	//declear slice and map
+		elementMap = []map[int]int{}
+		ele1 = map[int]int{1:2,2:4,4:8}
+		ele2 = map[int]int{2:1,4:2,8:4}
+	)
+	elementMap = append(elementMap,ele1,ele2)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;元素是slice的map&#34;&gt;元素是slice的map&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;//use slice as value decleaer map
+func elementWithSlice()  {
+	var elementSlice = map[string][]int{}
+	elementSlice[&amp;quot;Chinese&amp;quot;] = []int{1,2,3,22}
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;顺序遍历map&#34;&gt;顺序遍历Map&lt;/h3&gt;
+&lt;p&gt;把Map中的key遍历出来, 添加到切片中, 然后使用&lt;code&gt;sort.Strings()&lt;/code&gt;对切片进行排序, 最后遍历切片并去除map中的value&lt;/p&gt;
+">Golang 基础 -- Map(映射)</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/JYD86VWPR/"" data-c="
+          &lt;h3 id=&#34;osi-七层模型&#34;&gt;OSI 七层模型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;应用层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;表示层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会话层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;传输层&lt;/strong&gt;&lt;br&gt;
+数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- more --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;网络层&lt;/strong&gt;&lt;br&gt;
+数据帧封装；拥塞控制；网际互联&lt;br&gt;
+代表协议：IP、IPX、OSPF&lt;br&gt;
+数据格式：数据包；分组(packet)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据链路层&lt;/strong&gt;&lt;br&gt;
+数据成帧、物理地址寻址、流量控制、数据检错/重发&lt;br&gt;
+数据格式：数据帧(Frame)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;物理层&lt;/strong&gt;&lt;br&gt;
+数据还未经处理，以原始的电流、电压、电气形式存在；该层的典型规范包括RJ-45&lt;br&gt;
+数据格式： 比特流(bitstream)&lt;br&gt;
+在传输层及以上高层次中，数据传输单位统称为&lt;strong&gt;报文&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tcpip-四层模型&#34;&gt;TCP/IP 四层模型&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;应用层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;传输层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网络层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据链路层（网络接口层）&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+">网络</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/y_8Pj4iJt/"" data-c="
+          &lt;h3 id=&#34;软件测试&#34;&gt;软件测试&lt;/h3&gt;
+&lt;p&gt;ISO29119定义: 使用人工、自动的手段来运行或测量软件系统的过程，用以验证软件系统是否满足&lt;code&gt;规定的要求&lt;/code&gt;，并找出&lt;code&gt;预期结果&lt;/code&gt;之间的差异&lt;/p&gt;
+&lt;p&gt;软件测试对象：软件需求、软件概要设计、软件详细设计、软件运行环境、可运行环境、软件源代码；&lt;/p&gt;
+&lt;p&gt;软件测试的两个目标：测试覆盖率、测试效率&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;测试原则&#34;&gt;测试原则&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;测试能够显示缺陷的存在，但不能证明程序不存在缺陷；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;穷尽测试时不可能的，应该设定测试终止条件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;软件测试要尽早执行&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;缺陷具有群集特性（某个模块内发现缺陷，很有可能还存在其他缺陷）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;测试的杀虫剂悖论（测试用例应不定期评审、修改；）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;测试活动依赖于测试背景&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://tobyqin.github.io/images/2019-04/c8b20f490f1b40b28fe91e2fe48059fb636807279425994169.gif&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;测试分类&#34;&gt;测试分类&lt;/h3&gt;
+&lt;h4 id=&#34;按照阶段分类&#34;&gt;按照阶段分类：&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;单元测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对软件中的最小可测试单元进行检查和验证；&lt;/p&gt;
+&lt;p&gt;能够尽早返现缺陷；有利于重构；简化集成；有利于制作文档或减少文档&lt;/p&gt;
+&lt;p&gt;单元测试不可能覆盖所有执行路径；单元测试投入较大&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;集成测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在单元测试的基础上，测试将所有的单元按照概要设计规格说明的要求组装成模块、子系统或系统的过程中各部分工作是否达到或实现相应技术指标以及要求；&lt;/p&gt;
+&lt;p&gt;实施方案：Big Bang、自顶向下、自底向上、核心系统集成、高频集成（持续集成）；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;系统测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;将集成过的测试软件，作为计算机系统的一个部分，与系统中其他部分结合起来，在实际运行环境下对计算机系统进行的一系列严格有效的测试，以发现软件的潜在问题，保证系统的正常运行；&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;验收测试&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;针对用户需求、业务流程的正式测试，确定系统是否满足验收标准，由用户、客户或其他授权机构决定是否接受系统&lt;/p&gt;
+&lt;h4 id=&#34;按照测试手段分类&#34;&gt;按照测试手段分类&lt;/h4&gt;
+&lt;h4 id=&#34;黑盒测试-白盒测试&#34;&gt;黑盒测试、白盒测试&lt;/h4&gt;
+&lt;p&gt;黑盒：容易实施、无需关注内部结构；贴近用户需求；  覆盖率低，自动化测试时复用率较低维护成本高；&lt;/p&gt;
+&lt;p&gt;关注点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;是否有不正确或遗漏的功能&lt;/li&gt;
+&lt;li&gt;在接口上，输入是否能正确的接收？能否输出正确结果？&lt;/li&gt;
+&lt;li&gt;是否有数据结构的错误或外部信息访问错误？&lt;/li&gt;
+&lt;li&gt;性能是否能够满足要求&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;黑盒测试的主要设计方法：&lt;/p&gt;
+&lt;img src=&#34;http://www.spasvo.com/ckfinder/userfiles/images/2017040757391788.png&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;ul&gt;
+&lt;li&gt;等价类划分&lt;/li&gt;
+&lt;li&gt;边界值分析&lt;/li&gt;
+&lt;li&gt;错误推测&lt;/li&gt;
+&lt;li&gt;因果图&lt;/li&gt;
+&lt;li&gt;正交实验分析&lt;/li&gt;
+&lt;li&gt;状态迁移图&lt;/li&gt;
+&lt;li&gt;流程分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;静态测试-动态测试&#34;&gt;静态测试、动态测试&lt;/h4&gt;
+&lt;h4 id=&#34;手工测试-自动化测试&#34;&gt;手工测试、自动化测试&lt;/h4&gt;
+&lt;h3 id=&#34;测试流程&#34;&gt;测试流程&lt;/h3&gt;
+&lt;h3 id=&#34;测试报告&#34;&gt;测试报告&lt;/h3&gt;
+">软件测试</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/kipw6zaZe/"" data-c="
+          &lt;h3 id=&#34;keywords&#34;&gt;Keywords&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;break&lt;/code&gt; &lt;code&gt;default&lt;/code&gt; &lt;code&gt;func&lt;/code&gt; &lt;code&gt;interface&lt;/code&gt; &lt;code&gt;select&lt;/code&gt; &lt;code&gt;case&lt;/code&gt; &lt;code&gt;defer&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;go&lt;/code&gt; &lt;code&gt;map&lt;/code&gt; &lt;code&gt;struct&lt;/code&gt; &lt;code&gt;chan&lt;/code&gt; &lt;code&gt;else&lt;/code&gt; &lt;code&gt;goto&lt;/code&gt; &lt;code&gt;package&lt;/code&gt; &lt;code&gt;switch&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;const&lt;/code&gt; &lt;code&gt;fallthrough&lt;/code&gt; &lt;code&gt;if&lt;/code&gt; &lt;code&gt;range&lt;/code&gt; &lt;code&gt;tyge&lt;/code&gt; &lt;code&gt;continue&lt;/code&gt; &lt;code&gt;for&lt;/code&gt; &lt;code&gt;import&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;return&lt;/code&gt; &lt;code&gt;var&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;package-别名&#34;&gt;Package 别名&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;import f &amp;quot;fmt&amp;quot; //f.Println()&lt;/code&gt;&lt;br&gt;
+&lt;code&gt;import . math //Sqrt(4.0)&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;变量命名&#34;&gt;变量命名&lt;/h3&gt;
+&lt;p&gt;🐫驼峰命名，一般首字母小写，大写具有特殊含义(程序调用外部包时，只有大写开头才能被调用)&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;int-范围&#34;&gt;int 范围&lt;/h3&gt;
+&lt;p&gt;int类型会根据操作系统变化，在32位的操作系统中，int类型是32位，在64位操作系统中同理&lt;br&gt;
+int的取值范围：&lt;br&gt;
+int: -2^31 ~ 2^31-1 or -2^63 ~ 2^63-1&lt;/p&gt;
+&lt;h3 id=&#34;array&#34;&gt;Array&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;声明🎤&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;var arrName [length]type
+var arrName1 = [3]int{1,2,3}
+arrName2 := [2]bool{true,flase}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;selice&#34;&gt;Selice&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;声明&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;var seliceName = []type{elements...}
+//声明切片 并初始化
+seliceName := make([]type, length, capacity)
+//声明 但不初始化；cap(容量)可省略 make([]int, 2, 2) == make([]int, 2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;selice-排序&#34;&gt;selice 排序&lt;/h3&gt;
+&lt;p&gt;使用sort包对selice进行排序&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;sort.Ints(a []int) //递增排序
+sort.Sort(sort.Reverse(sort.IntSelice(a []int)))	//递减排序
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;sort.Float64s(a []float64)
+sort.Sort(sort.Reverse(sort.Float64sSelice(a []float64)))
+&lt;/code&gt;&lt;/pre&gt;
+">Golang 基础</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/X5LIPnrTg/"" data-c="
+          &lt;p&gt;今天新装的Mysql 连接时报错&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;1&#34;&gt;&lt;img src=&#34;https://l63u04.coding-pages.com//post-images/1583561363739.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;解决方法&#34;&gt;解决方法&lt;/h3&gt;
+&lt;p&gt;原来是粗心的我没有开启mysql service&lt;br&gt;
+&lt;code&gt;pa -ef&lt;/code&gt; 或&lt;code&gt;sudo service mysql status&lt;/code&gt; 检查mysql服务是否开启&lt;/p&gt;
+&lt;figure data-type=&#34;image&#34; tabindex=&#34;2&#34;&gt;&lt;img src=&#34;https://l63u04.coding-pages.com//post-images/1583561500128.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/figure&gt;
+">Mysql 错误处理</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" style="opacity: 0;" href="https://l63u04.coding-pages.com/rX6bft21a/"" data-c="
+          &lt;h3 id=&#34;备份源文件&#34;&gt;备份源文件&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo cp /etc/apt/sources.list /etc/apt/sources/list.bak&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;修改源&#34;&gt;修改源&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo chmod 777 /etc/apt/sources.list
+sudo vi /etc/apt/sources.list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- more --&gt;
+&lt;h3 id=&#34;更新&#34;&gt;更新&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;阿里源&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;清华源&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
+
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic main restricted universe multiverse
+
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse
+
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+
+deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-proposed main restricted universe multiverse
+&lt;/code&gt;&lt;/pre&gt;
+">Ubuntu/Debian/Deepin 更换国内源</a>
+      </div>
+      
+    </div>
+    <div class="page">
+      <div id="page_ul"></div>
+    </div>
+  </div>
+</div>
+<script>
+  !function () {
+    let searchMask = document.querySelector('#search_mask');
+    let result = document.querySelector('#result');
+    let items = document.querySelectorAll('.item');
+    let searchBox = document.querySelector('#search');
+    let statCount = document.querySelector('#stat_count');
+    let statTimes = document.querySelector('#stat_times');
+    let pageUl = document.querySelector('#page_ul');
+    let close = document.querySelector('#close');
+    
+    close.addEventListener('click', function() {
+      searchMask.style = 'display: none;'
+    })
+
+    let finds = [];
+    let contents = [];
+    let pageSize = 10;
+    items.forEach(item => {
+      let a = item.querySelector('a');
+      contents.push({
+        title: a.innerText,
+        details: a.dataset.c,
+        link: a.href
+      })
+      item.remove();
+    })
+
+    function insertStr(soure, start, count) {
+      let newStr = soure.substr(start, count);
+      return soure.slice(0, start) + '<em>' + newStr + '</em>' + soure.slice(start + count);
+    }
+
+    pageUl.addEventListener('click', function(event) {
+      let target = event.target;
+      if (target.__proto__ === HTMLSpanElement.prototype) {
+        appendResults(parseInt(target.dataset.i));
+      }
+    })
+
+    function appendResults(index) {
+      let htmlResult = '';
+      let start = index || 0;
+      let end = Math.min(start + pageSize, finds.length);
+      for (let i = start; i < end; i++) {
+        const current = finds[i];
+        let html = current.title;
+        let sum = 0;
+        let positions = current.positions;
+        positions.forEach(position => {
+          html = insertStr(html, position.start + sum, position.count);
+          sum += 9;
+        })
+        htmlResult += `<div class="item"><a class="result-title" href="${current.link}">${html}</a></div>`;
+      }
+      result.innerHTML = htmlResult;
+      pageUl.innerHTML = '';
+      let count = finds.length / pageSize;
+      let lis = '';
+      if (start !== 0) {
+        lis += `<span class="fa fa-angle-left" data-i='${start - 1}'></span>`;
+      }
+      for (let i = 0; i < count; i++) {
+        lis += `<span class='${i === start?'current':''}' data-i='${i}'>${i+1}</span>`;     
+      }
+      if (start+1 < count) {
+        lis += `<span class="fa fa-angle-right" data-i='${start+1}'></span>`;  
+      }
+      pageUl.innerHTML = lis;
+    }
+
+    function search(delay) {
+      let timer = null
+      return function () {
+        clearTimeout(timer)
+        timer = setTimeout(() => {
+          let start = Date.now();
+          let segments = searchBox.value.split(' ').filter(c => c != '');
+          if (segments.length <= 0) {
+            return;
+          }
+          finds = [];
+          let htmlResult = '';
+          contents.forEach(content => {
+            let title = content.title;
+            let positions = [];
+            let find = false;
+            segments.forEach((segment) => {
+              if (content.title.includes(segment)) {
+                find = true;
+                positions.push({
+                  start: content.title.indexOf(segment),
+                  count: segment.length
+                })
+              } else if (content.details.includes(segment)) {
+                find = true;
+              }
+            });
+            if (find) {
+              finds.push({
+                title: content.title,
+                link: content.link,
+                positions
+              });
+            }
+          })
+          appendResults(0);
+          statCount.textContent = finds.length;
+          statTimes.textContent = Date.now() - start;
+        }, delay)
+      }
+    }
+    searchBox.addEventListener('input', search(200));
+  }()
+</script>
+
+<input hidden id="copy" />
+<script>
+  let language = 'en';
+  if (language !== '') {
+    let map = new Map();
+    if (language === 'en') {
+      map.set('search', 'Search');
+      map.set('category', 'Categories');
+      map.set('article', 'Articles');
+      map.set('tag', 'Tags');
+      map.set('top', 'Top');
+      map.set('publish', 'published');
+      map.set('minute', ' minutes');
+      map.set('read-more', 'Read More');
+      map.set('view', 'View');
+      map.set('words', ' words');
+      map.set('category-in', 'category in');
+      map.set('preview', 'Meta');
+      map.set('index', 'Toc');
+      map.set('no-archives', "You haven't created yet");
+      map.set('archives', " articles in total");
+      map.set('cloud-tags', " tags in total");
+      map.set('copyright', "Copyright: ");
+      map.set('author', "Author: ");
+      map.set('link', "Link: ");
+      map.set('leave-message', "Leave a message");
+      map.set('format', "Links Format");
+      map.set('site-name', "Name: ");
+      map.set('site-link', "Link: ");
+      map.set('site-desc', "Desc: ");
+      map.set('stat', " related results, taking ");
+      map.set('stat-time', " ms");
+      map.set('site-img', "Image: ");
+    }
+
+    if (map.size > 0) {
+      let lanElems = document.querySelectorAll('.language');
+      lanElems.forEach(elem => {
+        let lan = elem.dataset.lan, text = map.get(lan);
+        if (elem.__proto__ === HTMLInputElement.prototype) {
+          elem.placeholder = text
+        } else {
+          if (elem.dataset.count) {
+            text = elem.dataset.count + text;
+          }
+          elem.textContent = text;
+        }
+      })
+    }
+  }
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 200
+  });
+</script>
+
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
+
+
+</html>
