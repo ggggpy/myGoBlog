@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>ggggpy</title>
-    <updated>2020-06-29T16:38:27.652Z</updated>
+    <updated>2020-06-29T16:41:08.693Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -16,14 +16,13 @@
         <link href="https://l63u04.coding-pages.com/ejVzQstYf/">
         </link>
         <updated>2020-06-23T06:24:14.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="图像">图像:</h3>
-<p>字由: 字体工具</p>
-<p>Snipaste: 截图/贴图工具(但是没有阴影和序号标注)</p>
+        <summary type="html"><![CDATA[<p>总结了一些自己在windows 平台常用得软件, 备忘~~</p>
 ]]></summary>
-        <content type="html"><![CDATA[<h3 id="图像">图像:</h3>
+        <content type="html"><![CDATA[<p>总结了一些自己在windows 平台常用得软件, 备忘~~</p>
+<!-- more -->
+<h3 id="图像">图像:</h3>
 <p>字由: 字体工具</p>
 <p>Snipaste: 截图/贴图工具(但是没有阴影和序号标注)</p>
-<!-- more -->
 <h3 id="影音">影音:</h3>
 <p>potplayer: 视频播放器</p>
 <p>哔哩: UWP应用, 非官方; 开发者: 云之幻;</p>
