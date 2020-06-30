@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>ggggpy</title>
-    <updated>2020-06-30T02:07:07.346Z</updated>
+    <updated>2020-06-30T02:09:28.744Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -48,8 +48,13 @@
         <link href="https://l63u04.coding-pages.com/xFPvMwOjT/">
         </link>
         <updated>2020-05-19T02:55:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>由于数组的长度是固定的并且属于数组的一部分, 导致数组有很多限制;<br>
+切片是一个拥有相同元素的长度可变的序列, 他是基于数组进行了一层封装, 使用比较灵活, 能够自动扩</p>
+]]></summary>
         <content type="html"><![CDATA[<p>由于数组的长度是固定的并且属于数组的一部分, 导致数组有很多限制;<br>
-切片是一个拥有相同元素的长度可变的序列, 他是基于数组进行了一层封装, 使用比较灵活, 能够自动扩容;<br>
+切片是一个拥有相同元素的长度可变的序列, 他是基于数组进行了一层封装, 使用比较灵活, 能够自动扩</p>
+<!-- more -->
+<p>容;<br>
 切片是一个引用类型, 她包含 地址/ 长度/ 容量. 切片一般用于快速操作一块数据集合.</p>
 <h3 id="selice-declear">selice declear</h3>
 <p><code>var sleiceName []Type</code><br>
