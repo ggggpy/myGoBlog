@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://l63u04.coding-pages.com/</id>
     <title>ggggpy</title>
-    <updated>2020-06-30T02:03:47.244Z</updated>
+    <updated>2020-06-30T02:05:39.289Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://l63u04.coding-pages.com/"/>
     <link rel="self" href="https://l63u04.coding-pages.com/atom.xml"/>
@@ -63,15 +63,6 @@
         <link href="https://l63u04.coding-pages.com/HhCII-wbe/">
         </link>
         <updated>2020-03-19T09:26:15.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="关系型数据库">关系型数据库</h3>
-<p>Oracle<br>
-MySQL<br>
-MSSQL</p>
-<h3 id="非关系型数据库">非关系型数据库</h3>
-<p>Mongo DB<br>
-Redis<br>
-ES</p>
-]]></summary>
         <content type="html"><![CDATA[<h3 id="关系型数据库">关系型数据库</h3>
 <p>Oracle<br>
 MySQL<br>
@@ -80,7 +71,6 @@ MSSQL</p>
 <p>Mongo DB<br>
 Redis<br>
 ES</p>
-<!-- more -->
 <h3 id="云数据库">云数据库</h3>
 <p>RDS \ PolarDB<br>
 TDSQL</p>
@@ -260,32 +250,39 @@ func elementWithSlice()  {
 <ul>
 <li><strong>应用层</strong></li>
 <li><strong>表示层</strong></li>
-<li><strong>会话层</strong></li>
-<li><strong>传输层</strong><br>
-数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）</li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<h3 id="osi-七层模型">OSI 七层模型</h3>
 <ul>
 <li><strong>应用层</strong></li>
 <li><strong>表示层</strong></li>
-<li><strong>会话层</strong></li>
-<li><strong>传输层</strong><br>
-数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）</li>
 </ul>
 <!-- more -->
 <ul>
-<li><strong>网络层</strong><br>
+<li>
+<p><strong>会话层</strong></p>
+</li>
+<li>
+<p><strong>传输层</strong><br>
+数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）</p>
+</li>
+<li>
+<p><strong>网络层</strong><br>
 数据帧封装；拥塞控制；网际互联<br>
 代表协议：IP、IPX、OSPF<br>
-数据格式：数据包；分组(packet)</li>
-<li><strong>数据链路层</strong><br>
+数据格式：数据包；分组(packet)</p>
+</li>
+<li>
+<p><strong>数据链路层</strong><br>
 数据成帧、物理地址寻址、流量控制、数据检错/重发<br>
-数据格式：数据帧(Frame)</li>
-<li><strong>物理层</strong><br>
+数据格式：数据帧(Frame)</p>
+</li>
+<li>
+<p><strong>物理层</strong><br>
 数据还未经处理，以原始的电流、电压、电气形式存在；该层的典型规范包括RJ-45<br>
 数据格式： 比特流(bitstream)<br>
-在传输层及以上高层次中，数据传输单位统称为<strong>报文</strong></li>
+在传输层及以上高层次中，数据传输单位统称为<strong>报文</strong></p>
+</li>
 </ul>
 <h3 id="tcpip-四层模型">TCP/IP 四层模型</h3>
 <ul>
