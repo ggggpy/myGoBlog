@@ -9,7 +9,7 @@
 <meta name="description" content="ggggpy personal blog. 个人博客/笔记">
 <meta name="theme-color" content="#000">
 <title>Golang 基础 | ggggpy</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1593482966954">
+<link rel="shortcut icon" href="/favicon.ico?v=1593483049370">
 <link rel="stylesheet" href="/media/css/gemini.css">
 <link rel="stylesheet" href="/media/fonts/font-awesome.css">
 <link
@@ -1400,33 +1400,23 @@ func elementWithSlice()  {
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;应用层&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;表示层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;会话层&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;传输层&lt;/strong&gt;&lt;br&gt;
+数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- more --&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;会话层&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;传输层&lt;/strong&gt;&lt;br&gt;
-数据格式：数据段；报文(Segment) TCP协议称：段或报文段；UDP协议的数据单元成为：数据报（单位为Segment或Message）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;网络层&lt;/strong&gt;&lt;br&gt;
+&lt;li&gt;&lt;strong&gt;网络层&lt;/strong&gt;&lt;br&gt;
 数据帧封装；拥塞控制；网际互联&lt;br&gt;
 代表协议：IP、IPX、OSPF&lt;br&gt;
-数据格式：数据包；分组(packet)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;数据链路层&lt;/strong&gt;&lt;br&gt;
+数据格式：数据包；分组(packet)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据链路层&lt;/strong&gt;&lt;br&gt;
 数据成帧、物理地址寻址、流量控制、数据检错/重发&lt;br&gt;
-数据格式：数据帧(Frame)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;物理层&lt;/strong&gt;&lt;br&gt;
+数据格式：数据帧(Frame)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;物理层&lt;/strong&gt;&lt;br&gt;
 数据还未经处理，以原始的电流、电压、电气形式存在；该层的典型规范包括RJ-45&lt;br&gt;
 数据格式： 比特流(bitstream)&lt;br&gt;
-在传输层及以上高层次中，数据传输单位统称为&lt;strong&gt;报文&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
+在传输层及以上高层次中，数据传输单位统称为&lt;strong&gt;报文&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;tcpip-四层模型&#34;&gt;TCP/IP 四层模型&lt;/h3&gt;
 &lt;ul&gt;
